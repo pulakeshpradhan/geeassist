@@ -1,7 +1,7 @@
 import geeassist as gas
 from geeassist.workflows import auto_process_and_map
 
-gas.init()
+gas.init(project='spatialgeography')
 
 # Completely automated workflow
 # 1. Finds 'Kolkata' in FAO GAUL

@@ -1,7 +1,7 @@
 import ee
 import geeassist as gas
 
-gas.init()
+gas.init(project='spatialgeography')
 
 # Load a Landsat 8 image (Collection 2)
 # Using a filtered collection to ensure we get a valid image without hardcoding fragile IDs

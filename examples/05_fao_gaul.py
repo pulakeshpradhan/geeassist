@@ -2,7 +2,7 @@ import ee
 import geeassist as gas
 from geeassist.workflows import get_fao_gaul
 
-gas.init()
+gas.init(project='spatialgeography')
 
 # Get geometry for Kolkata
 kolkata_geom = get_fao_gaul("Kolkata", level=2)

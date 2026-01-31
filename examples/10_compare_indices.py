@@ -1,7 +1,7 @@
 import ee
 import geeassist as gas
 
-gas.init()
+gas.init(project='spatialgeography')
 
 l8 = ee.ImageCollection("LANDSAT/LC08/C02/T1_TOA") \
        .filterBounds(ee.Geometry.Point(77.5, 12.9)) \

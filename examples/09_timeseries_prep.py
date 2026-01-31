@@ -1,7 +1,7 @@
 import ee
 import geeassist as gas
 
-gas.init()
+gas.init(project='spatialgeography')
 
 # Simple time series (reduction)
 region = ee.Geometry.Point([77.5, 12.9]).buffer(1000)

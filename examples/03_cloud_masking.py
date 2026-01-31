@@ -1,7 +1,7 @@
 import ee
 import geeassist as gas
 
-gas.init()
+gas.init(project='spatialgeography')
 
 l8 = ee.ImageCollection("LANDSAT/LC09/C02/T1_L2") \
        .filterDate('2022-01-01', '2022-02-01') \
