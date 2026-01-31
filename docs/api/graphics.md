@@ -10,27 +10,27 @@ The `graphics` module provides high-level wrappers around R's powerful plotting 
 ## Usage
 
 ```python
-import geeassistant as gea
+import geeassist as gas
 import geopandas as gpd
 
 # 1. Check if R environment is ready
-ready, msg = gea.graphics.check_r_environment()
+ready, msg = gas.graphics.check_r_environment()
 if not ready:
     print(msg)
-    # gea.graphics.install_r_packages() # Run this once if needed
+    # gas.graphics.install_r_packages() # Run this once if needed
 
 # 2. Prepare Data (e.g., from a Shapefile or GEE export)
 gdf = gpd.read_file('path/to/my_data.shp')
 
 # 3. Create a static map with ggplot2
-gea.graphics.ggplot_map(
+gas.graphics.ggplot_map(
     data=gdf,
     title="Vegetation Index Map",
     output_file="ndvi_map.png"
 )
 
 # 4. Create a thematic map with tmap
-gea.graphics.tmap_map(
+gas.graphics.tmap_map(
     data=gdf,
     title="Reference Map",
     output_file="ref_map.png"
@@ -39,7 +39,7 @@ gea.graphics.tmap_map(
 
 ## API Reference
 
-::: geeassistant.graphics
+::: geeassist.graphics
     handler: python
     options:
       members:

@@ -1,6 +1,6 @@
 # Core Module
 
-::: geeassistant.core
+::: geeassist.core
     handler: python
     options:
       members:

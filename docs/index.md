@@ -1,6 +1,6 @@
-# Welcome to GEE Assistant
+# Welcome to GEE Assist
 
-**GEE Assistant** simplifies your Google Earth Engine (GEE) workflows in Python. Whether you are a beginner looking to learn GEE fundamentals or an expert needing quick utility functions, this package is designed for you.
+**GEE Assist** simplifies your Google Earth Engine (GEE) workflows in Python. Whether you are a beginner looking to learn GEE fundamentals or an expert needing quick utility functions, this package is designed for you.
 
 ## Key Features
 
@@ -12,13 +12,13 @@
 ## Quick Start
 
 ```python
-import geeassistant as gea
+import geeassist as gas
 
 # Initialize
-gea.init()
+gas.init()
 
 # Check it works
-print(gea.get_info(ee.Number(5)))
+print(gas.get_info(ee.Number(5)))
 ```
 
 ## Licensing

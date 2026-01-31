@@ -10,10 +10,10 @@
 
 ## Install via pip
 
-You can install `geeassistant` directly from PyPI (once published):
+You can install `geeassist` directly from PyPI (once published):
 
 ```bash
-pip install geeassistant
+pip install geeassist
 ```
 
 ## Install from Source
@@ -21,8 +21,8 @@ pip install geeassistant
 To install the latest development version from GitHub:
 
 ```bash
-git clone https://github.com/pulakeshpradhan/geeassistant.git
-cd geeassistant
+git clone https://github.com/pulakeshpradhan/geeassist.git
+cd geeassist
 pip install .
 ```
 
@@ -31,6 +31,6 @@ pip install .
 To verify that the package is installed correctly, open a Python shell and run:
 
 ```python
-import geeassistant
-print(geeassistant.__version__)
+import geeassist
+print(geeassist.__version__)
 ```

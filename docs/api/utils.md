@@ -1,6 +1,6 @@
 # Utilities Module
 
-::: geeassistant.utils
+::: geeassist.utils
     handler: python
     options:
       members:

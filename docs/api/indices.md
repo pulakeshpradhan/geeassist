@@ -1,6 +1,6 @@
 # Indices Module
 
-::: geeassistant.indices
+::: geeassist.indices
     handler: python
     options:
       members:

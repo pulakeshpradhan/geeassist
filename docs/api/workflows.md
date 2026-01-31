@@ -7,7 +7,7 @@ The `workflows` module provides high-level automated pipelines to perform common
 The `auto_process_and_map` function allows you to go from a city name to a publication-quality map in one step.
 
 ```python
-from geeassistant.workflows import auto_process_and_map
+from geeassist.workflows import auto_process_and_map
 
 # Automatically:
 # 1. Finds 'Kolkata' boundary
@@ -24,7 +24,7 @@ auto_process_and_map(
 
 ## API Reference
 
-::: geeassistant.workflows
+::: geeassist.workflows
     handler: python
     options:
       members:
