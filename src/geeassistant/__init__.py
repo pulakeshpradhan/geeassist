@@ -3,4 +3,4 @@ from . import indices
 from . import utils
 from . import graphics
 
-__version__ = "0.1.0"
+__version__ = "0.1.1"
